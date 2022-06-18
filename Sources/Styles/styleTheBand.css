@@ -1,0 +1,53 @@
+/* ===== Reset CSS ===== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ===== Body ===== */
+.wrapper {
+    /* Nothing */
+    display: block;
+}
+
+/* ===== header ===== */
+.wrap__header {
+    position: fixed;
+    top: 0;
+    height: 46px;
+    width: 100%;
+    background-color: #333;
+    z-index: 1;
+}
+
+
+
+/* ===== slider ===== */
+.wrap__slider {
+    
+}
+
+
+/* ===== content ===== */
+.wrap__contents {
+    min-height: 500px;
+    background-color: #ccc;
+}
+
+/* ===== footer ===== */
+.wrap__footer {
+
+}
