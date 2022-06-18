@@ -33,13 +33,97 @@ a {
     z-index: 1;
 }
 
+.head__nav {
+    display: inline-block;
+}
 
+.head__nav > li {
+    display: inline-block;
+}
+
+.head__nav li {
+    position: relative;
+}
+
+.head__nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.head__nav li a {
+    display: block;
+    line-height: 46px;
+    padding: 0 24px;
+}
+
+.head__nav > li:hover > a, 
+.nav__subnav li:hover a {
+    color: #333;
+    background-color: #ccc;
+}
+
+.head__nav li:hover .nav__subnav {
+    display: block;
+}
+
+.nav__subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    min-width: 160px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgba(39, 39, 39, 0.2), 0 4px 20px 0 rgba(39, 39, 39, 0.19);
+}
+
+.nav__subnav li a {
+    color: #333;
+    padding: 0 12px;
+    line-height: 37px;
+
+}
+
+.head__search-btn {
+    line-height: 46px;
+    float: right;
+    padding: 0 22px;
+}
+
+.head__search-btn:hover {
+    cursor: pointer;
+    background-color: #F44336;
+}
+
+.head__search-btn .search-btn__icon {
+    color: #fff;
+    font-size: 18px;
+}
 
 /* ===== slider ===== */
 .wrap__slider {
+    position: relative;
+    padding-top: 50%;
+    margin-top: 46px;
+    background: url("/Assets/Image/chicago.jpg") top center / cover no-repeat;
+}
+
+.slider__text {
+    position: absolute;
+    bottom: 47px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.text__heading {
+    font-weight: 500;
+    font-size: 24px;
     
 }
 
+.text__descrpt {    
+    margin-top: 25px;
+    font-size: 15px;
+}
 
 /* ===== content ===== */
 .wrap__contents {
