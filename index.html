@@ -86,26 +86,26 @@
                     aliqua. Ut enim ad minim
                     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <div class="sec__mem-list">
-                    <div class="mem-item">
+                <div class="row sec__mem-list">
+                    <div class="col three-col text-center">
                         <p class="mem-name">Name</p>
-                        <img src="./Assets/Image/bandmember.jpg" alt="">
+                        <img class="mem-img" src="./Assets/Image/bandmember.jpg" alt="">
                     </div>
-                    <div class="mem-item">
+                    <div class="col three-col text-center">
                         <p class="mem-name">Name</p>
-                        <img src="./Assets/Image/bandmember.jpg" alt="">
+                        <img class="mem-img" src="./Assets/Image/bandmember.jpg" alt="">
                     </div>
-                    <div class="mem-item">
+                    <div class="col three-col text-center">
                         <p class="mem-name">Name</p>
-                        <img src="./Assets/Image/bandmember.jpg" alt="">
+                        <img class="mem-img" src="./Assets/Image/bandmember.jpg" alt="">
                     </div>
                 </div>
             </div>
 
             <div class="dark-bg">
-                <div class="ctent__section ">
+                <div class="ctent__section">
                     <h2 class="sec__heading">TOUR DATES</h2>
-                    <P class="sec__sub-heading">Remember to book your tickets!</P>
+                    <p class="sec__sub-heading">Remember to book your tickets!</p> <br>
                     <ul class="sec__ticket-list">
                         <li>
                             September <span class="sold-out">Sold out</span>
@@ -117,9 +117,10 @@
                             November <span class="quantity">3</span>
                         </li>
                     </ul>
-                    <div class="sec__ticker-place">
-                        <div class="ticket-place__item">
-                            <img src="./Assets/Image/newyork.jpg" alt="New York" width="100%">
+
+                    <div class="row sec__ticket-place">
+                        <div class="col three-col">
+                            <img class="place-img" src="./Assets/Image/newyork.jpg" alt="New York" width="100%">
                             <div class="item__info">
                                 <h3 class="info__heading">New York</h3>
                                 <p class="info__date">Fri 27 Nov 2016</p>
@@ -127,8 +128,8 @@
                                 <a href="#" class="info__btn js-btn-buy">Buy Tickets</a>
                             </div>
                         </div>
-                        <div class="ticket-place__item">
-                            <img src="./Assets/Image/paris.jpg" alt="Paris">
+                        <div class="col three-col">
+                            <img class="place-img" src="./Assets/Image/paris.jpg" alt="Paris">
                             <div class="item__info">
                                 <h3 class="info__heading">Paris</h3>
                                 <p class="info__date">Sat 28 Nov 2016</p>
@@ -136,8 +137,8 @@
                                 <a href="#" class="info__btn js-btn-buy">Buy Tickets</a>
                             </div>
                         </div>
-                        <div class="ticket-place__item">
-                            <img src="./Assets/Image/sanfran.jpg" alt="Sanfran" width="100%">
+                        <div class="col three-col">
+                            <img class="place-img" src="./Assets/Image/sanfran.jpg" alt="Sanfran" width="100%">
                             <div class="item__info">
                                 <h3 class="info__heading">San Francisco</h3>
                                 <p class="info__date">Sun 29 Nov 2016</p>
@@ -151,7 +152,33 @@
 
             <div class="ctent__section">
                 <h2 class="sec__heading">CONTACT</h2>
-                <P class="sec__sub-heading">Fan? Drop a note!</P>
+                <p class="sec__sub-heading">Fan? Drop a note!</p>
+
+                <div class="row contact__content">
+                    <div class="col two-col contact-left">
+                        <p><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
+                        <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                        <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
+                    </div>
+                    <div class="col two-col contact-right">
+                        <form action="">
+                            <div class="row">
+                                <div class="col two-col">
+                                    <input type="text" required class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col two-col">
+                                    <input type="text" required class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" required class="form-control" placeholder="Message">
+                                </div>
+                            </div>
+                        <input type="submit" class="btn-submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
 

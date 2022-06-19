@@ -6,7 +6,7 @@
 }
 
 html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
     font-size: 15px;
 }
@@ -19,13 +19,53 @@ a {
     text-decoration: none;
 }
 
+input {
+    outline: none;
+}
+
 /* ===== Variables ===== */
 :root {
     --dark-prim: #333;
     --light-prim: #fff;
     --light-grey: #ddd;
     --dark-grey: #ccc;
-    --red-color: #F44336;
+    --red-color: #f44336;
     --green-color: #009688;
-    --blue-color: #2196F3;
+    --blue-color: #2196f3;
+}
+
+/* ===== Common ===== */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col-full {
+    display: block;
+    width: 100%;
+}
+
+.col {
+    padding: 0 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.three-col {
+    width: calc(100% / 3);
+}
+
+.two-col {
+    width: 50%;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.mt-8 {
+    margin-top: 8px;
 }
