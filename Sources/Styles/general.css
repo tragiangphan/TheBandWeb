@@ -9,6 +9,7 @@ html {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
     font-size: 15px;
+    scroll-behavior: smooth;
 }
 
 ul {
@@ -64,6 +65,10 @@ input {
 
 .text-center {
     text-align: center !important;
+}
+
+.pull-right {
+    float: right;
 }
 
 .mt-8 {

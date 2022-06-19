@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Assets/Image/Asset_1.png">
     <title>The Band</title>
 
     <!-- Font -->
@@ -25,16 +26,16 @@
             <!-- Navbar -->
             <ul class="head__nav">
                 <li>
-                    <a href="">Home</a>
+                    <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="">Band</a>
+                    <a href="#band">Band</a>
                 </li>
                 <li>
-                    <a href="">Tour</a>
+                    <a href="#tour">Tour</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
                 <li>
                     <a href="#">More
@@ -42,13 +43,13 @@
                     </a>
                     <ul class="nav__subnav">
                         <li>
-                            <a href="">Merchandise</a>
+                            <a href="#">Merchandise</a>
                         </li>
                         <li>
-                            <a href="">Extras</a>
+                            <a href="#">Extras</a>
                         </li>
                         <li>
-                            <a href="">Media</a>
+                            <a href="#">Media</a>
                         </li>
                     </ul>
                 </li>
@@ -70,7 +71,7 @@
 
         <!-- Contents -->
         <div class="wrap__content">
-            <div class="ctent__section">
+            <div id="band" class="ctent__section">
                 <h2 class="sec__heading">THE BAND</h2>
                 <P class="sec__sub-heading">We love music</P>
                 <p class="sec__about">
@@ -102,7 +103,7 @@
                 </div>
             </div>
 
-            <div class="dark-bg">
+            <div id="tour" class="dark-bg">
                 <div class="ctent__section">
                     <h2 class="sec__heading">TOUR DATES</h2>
                     <p class="sec__sub-heading">Remember to book your tickets!</p> <br>
@@ -125,7 +126,7 @@
                                 <h3 class="info__heading">New York</h3>
                                 <p class="info__date">Fri 27 Nov 2016</p>
                                 <p class="info__descpt">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="#" class="info__btn js-btn-buy">Buy Tickets</a>
+                                <a href="#" class="btn js-btn-buy">Buy Tickets</a>
                             </div>
                         </div>
                         <div class="col three-col">
@@ -134,7 +135,7 @@
                                 <h3 class="info__heading">Paris</h3>
                                 <p class="info__date">Sat 28 Nov 2016</p>
                                 <p class="info__descpt">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="#" class="info__btn js-btn-buy">Buy Tickets</a>
+                                <a href="#" class="btn js-btn-buy">Buy Tickets</a>
                             </div>
                         </div>
                         <div class="col three-col">
@@ -143,14 +144,14 @@
                                 <h3 class="info__heading">San Francisco</h3>
                                 <p class="info__date">Sun 29 Nov 2016</p>
                                 <p class="info__descpt">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="#" class="info__btn js-btn-buy">Buy Tickets</a>
+                                <a href="#" class="btn js-btn-buy">Buy Tickets</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="ctent__section">
+            <div id="contact" class="ctent__section">
                 <h2 class="sec__heading">CONTACT</h2>
                 <p class="sec__sub-heading">Fan? Drop a note!</p>
 
@@ -175,16 +176,27 @@
                                     <input type="text" required class="form-control" placeholder="Message">
                                 </div>
                             </div>
-                        <input type="submit" class="btn-submit" value="SEND">
+                        <input type="submit" class="btn pull-right" value="SEND">
                         </form>
                     </div>
                 </div>
             </div>
+            <div class="sec-map">
+                <img src="./Assets/Image/map.jpg" alt="Map">
+            </div>
         </div>
-
+        
         <!-- Footer -->
         <div class="wrap__footer">
-
+            <div class="footer__social">
+                <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <p class="footer__copyright">Powered by <a href="" class="w3css">w3.css</a></p>
         </div>
     </div>
 
