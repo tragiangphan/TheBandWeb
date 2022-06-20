@@ -118,6 +118,7 @@
 .text__descrpt {
     margin-top: 25px;
     font-size: 15px;
+    text-shadow: 0 0 1px var(--dark-prim);
 }
 
 /* ===== content ===== */
