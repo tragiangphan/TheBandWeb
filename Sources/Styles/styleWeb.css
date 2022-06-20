@@ -18,6 +18,7 @@
     width: 100%;
     background-color: var(--dark-prim);
     z-index: 1;
+    overflow: hidden;
 }
 
 .head__nav {
@@ -69,6 +70,7 @@
     line-height: 37px;
 }
 
+.head__menu-btn,
 .head__search-btn {
     line-height: 46px;
     float: right;
@@ -80,7 +82,7 @@
     background-color: var(--red-color);
 }
 
-.head__search-btn .search-btn__icon {
+.search-btn__icon {
     color: var(--light-prim);
     font-size: 18px;
 }
@@ -114,8 +116,9 @@
 /* ===== content ===== */
 .ctent__section {
     width: 768px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 64px 16px;
+    padding: 64px 24px
 }
 
 .sec__heading {
