@@ -51,5 +51,4 @@ $(function () {
             header.style.height = null;
         }
     }
-
 });
