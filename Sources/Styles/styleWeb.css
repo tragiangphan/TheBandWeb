@@ -92,7 +92,7 @@
     position: relative;
     padding-top: 50%;
     margin-top: 46px;
-    background: url("/Assets/Image/chicago.jpg") top center / cover no-repeat;
+    background: url("../../Assets/Image/chicago.jpg") top center / cover no-repeat;
 }
 
 .slider__text {
