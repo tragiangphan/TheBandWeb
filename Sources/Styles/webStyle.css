@@ -70,6 +70,13 @@
     line-height: 37px;
 }
 
+.head__menu-btn {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .head__menu-btn,
 .head__search-btn {
     line-height: 46px;
@@ -92,7 +99,8 @@
     position: relative;
     padding-top: 50%;
     margin-top: 46px;
-    background: url("../../Assets/Image/chicago.jpg") top center / cover no-repeat;
+    background: url("../../Assets/Image/chicago.jpg") top center / cover
+        no-repeat;
 }
 
 .slider__text {
@@ -118,7 +126,7 @@
     width: 768px;
     max-width: 100%;
     margin: 0 auto;
-    padding: 64px 24px
+    padding: 64px 24px;
 }
 
 .sec__heading {
@@ -282,7 +290,6 @@
 .footer__copyright a {
     text-decoration: underline;
     color: var(--dark-prim);
-
 }
 
 /* ===== Modals ===== */

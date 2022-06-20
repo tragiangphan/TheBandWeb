@@ -1,0 +1,33 @@
+@media (max-width: 740px) {
+    .head__nav {
+        display: block;
+    }
+
+    .head__nav > li {
+        display: block;
+    }
+
+    .head__nav > li:first-child {
+        display: inline-block;
+    }
+
+    .head__search-btn {
+        display: none;
+    }
+
+    .head__menu-btn {
+        display: block;
+    }
+
+    .head__menu-btn:hover {
+        background-color: var(--dark-grey);
+    }
+
+    .search-btn__icon:hover {
+        color: var(--dark-prim);
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 740px) {
+
+}
