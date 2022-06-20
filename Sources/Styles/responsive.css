@@ -45,36 +45,18 @@
         padding: 5px 41px;
     }
 
-    /* .sec__mem-list  {
-        display: block;
-        width: 100%;
-    } */
-
     .row {
-        display: block;
-        width: 100%;
-        padding-top: 8px;
+        flex-direction: column;
     }
 
     .card {
         margin-top: 16px;
         width: 100%;
-        padding: 0;
-        margin-left: 8px;
-    }
-
-    form > .row {
-        margin-right: 8px;
-        margin-left: 0;
-        padding-top: 8px;
-        margin-top: 0;
     }
 
     .col.two-col, 
     .col.col-full {
         width: 100%;
-        display: block;
-        padding: 0;
     }
     
     .col.col.two-col:nth-child(2) {
@@ -93,6 +75,4 @@
         text-align: center;
         font-size: 18px;
     }
-
-
 }
