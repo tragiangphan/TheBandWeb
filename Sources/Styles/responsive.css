@@ -44,6 +44,25 @@
         color: var(--lighter-grey);
         padding: 5px 41px;
     }
+
+    /* .sec__mem-list  {
+        display: block;
+        width: 100%;
+    } */
+
+    .row {
+        display: block;
+        width: 100%;
+        padding-top: 16px;
+    }
+
+    .card {
+        display: block;
+        margin-top: 16px;
+        width: 100%;
+        padding: 0;
+        margin-left: 8px;
+    }
 }
 
 @media (max-width: 1023px) and (min-width: 740px) {

@@ -57,7 +57,7 @@ input {
 }
 
 .three-col {
-    width: calc(100% / 3);
+    width: 33.33333%;
 }
 
 .two-col {
@@ -74,4 +74,8 @@ input {
 
 .mt-8 {
     margin-top: 8px;
+}
+
+.mt-16 {
+    margin-top: 16px;
 }
