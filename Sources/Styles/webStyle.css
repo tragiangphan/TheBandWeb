@@ -18,7 +18,6 @@
     width: 100%;
     background-color: var(--dark-prim);
     z-index: 1;
-    overflow: hidden;
 }
 
 .head__nav {
@@ -47,7 +46,7 @@
 .head__nav > li:hover > a,
 .nav__subnav li:hover a {
     color: var(--dark-prim);
-    background-color: var(--dark-grey);
+    background-color: var(--light-grey);
 }
 
 .head__nav li:hover .nav__subnav {
@@ -169,7 +168,7 @@
 .sec__ticket-list li {
     color: var(--dark-prim);
     padding: 9px 16px;
-    border-bottom: 1px solid var(--light-grey);
+    border-bottom: 1px solid var(--lighter-grey);
 }
 
 .sold-out {
@@ -236,7 +235,7 @@
 }
 
 .btn:hover {
-    background-color: var(--dark-grey);
+    background-color: var(--light-grey);
     color: var(--dark-prim);
 }
 
@@ -256,7 +255,7 @@
 }
 
 .form-control {
-    border: var(--light-grey) solid 1px;
+    border: var(--lighter-grey) solid 1px;
     padding: 8px;
     width: 100%;
 }
@@ -362,7 +361,7 @@
 
 .mod__input {
     padding: 10px 8px;
-    border: var(--dark-grey) solid 1px;
+    border: var(--light-grey) solid 1px;
     width: 100%;
     margin-bottom: 24px;
 }

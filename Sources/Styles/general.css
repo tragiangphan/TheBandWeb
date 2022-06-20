@@ -26,10 +26,11 @@ input {
 
 /* ===== Variables ===== */
 :root {
-    --dark-prim: #333;
+    --dark-prim: #000;
     --light-prim: #fff;
-    --light-grey: #ddd;
-    --dark-grey: #ccc;
+    --lighter-grey: #ddd;
+    --light-grey: #ccc;
+    --dark-grey: #333;
     --red-color: #f44336;
     --green-color: #009688;
     --blue-color: #2196f3;
