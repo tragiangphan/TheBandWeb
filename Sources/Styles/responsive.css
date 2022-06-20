@@ -77,15 +77,21 @@
         padding: 0;
     }
     
-    .btn {
-        width: 100%;
-        text-align: center;
-    }
-
     .col.col.two-col:nth-child(2) {
         margin-top: 8px;
     }
 }
 
-@media (max-width: 1023px) and (min-width: 740px) {
+@media (max-width: 1023px) {
+    i[class*="fa-solid"] {
+        margin: 8px;
+        font-size: 30px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+
 }

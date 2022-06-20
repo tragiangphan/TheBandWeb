@@ -269,9 +269,9 @@
 }
 
 .footer__social a i {
-    font-size: 24px;
+    font-size: 30px;
     color: var(--dark-prim);
-    margin-right: 5px;
+    margin: 8px;
 }
 
 .footer__copyright a:hover,
